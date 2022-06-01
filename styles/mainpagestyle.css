@@ -1,6 +1,9 @@
 body {
     display: flex;
-    background-image: 
+    background-image: url(https://reeeooon.github.io/genshinbd/img/back/backimg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 } 
 main {
     display: block;
