@@ -2,11 +2,20 @@ header {
     display: flex;
     max-width: 20%;
     margin-left: 0;
+    height: 100vh;
+    background-color: honeydew;
 }
 ul {
     display: block;
     margin-left: 0;
+    padding-left: 0;
 }
 li {
     list-style-type: none;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px black;
+    border-style: solid;
+    border-bottom-right-radius: 10px;
 }
