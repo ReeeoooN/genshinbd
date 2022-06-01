@@ -1,0 +1,12 @@
+header {
+    display: flex;
+    max-width: 20%;
+    margin-left: 0;
+}
+ul {
+    display: block;
+    margin-left: 0;
+}
+li {
+    list-style-type: none;
+}
