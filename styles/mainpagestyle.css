@@ -7,5 +7,76 @@ body {
 } 
 main {
     display: block;
-    margin-left: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10vh;
+}
+.verc{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: honeydew;
+    border: 1px solid honeydew;
+    border-radius: 3px;
+    margin-bottom: 1%;
+    padding-right: 1%;
+    opacity: 0.5;
+}
+h1 {
+    background-color: honeydew;
+    border: 1px solid honeydew;
+    border-radius: 3px;
+    padding-left: 2%;
+    color: rgb(85, 2, 85);
+    opacity: 0.5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2 {
+    color: rgb(85, 2, 85);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 80%;
+    margin: 1vh;
+    margin-left: 0;
+
+}
+.verul {
+    height: 80%;
+    margin: 2%;
+}
+.contentlist {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    text-shadow: 2px white;
+}
+.verblock {
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    width: 40%;
+}
+.bblock {
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    width: 60%; 
+}
+.banners {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1%;
+}
+.bimg {
+    height: 20vh;
+    margin-bottom: 1%;
+    border: 1px solid honeydew;
+    border-radius: 3px;
+}
+.descblock {
+    background-color: honeydew;
+    border: 1px solid honeydew;
+    border-radius: 3px;
+    opacity: 0.5;
+    margin-bottom: 0.5%;
+    margin-top: 0.5;
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px white;
 }

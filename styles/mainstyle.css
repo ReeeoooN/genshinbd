@@ -3,10 +3,10 @@ body {
 }
 header {
     width: 15%;
-    display: flex;
-    max-width: 100px;
     margin-left: 0;
     height: 100vh;
+    position: sticky;
+    top: 0px;
     
 }
 ul {
@@ -15,7 +15,7 @@ ul {
     margin-left: 0;
     padding-left: 0;
 }
-li {
+.hlist {
     background-color: honeydew;
     list-style-type: none;
     display: block;
@@ -27,15 +27,18 @@ li {
     opacity: 0.5;
     margin-bottom: 10px;
 }
-li:active {
+.hlist:active {
     opacity: 0.8;
 }
-li:hover {
-    box-shadow: 2px black;
+.hlist:hover {
+    background-color: aliceblue;
 }
 .htext {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(85, 2, 85);
     text-decoration: none;
+}
+.mainblock {
+    display: flex;
 }
