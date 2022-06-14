@@ -14,20 +14,20 @@ main {
 .verc{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: honeydew;
+    background-color: rgba(240, 255, 240, .5);
     border: 1px solid honeydew;
     border-radius: 3px;
     margin-bottom: 1%;
     padding-right: 1%;
-    opacity: 0.5;
+
 }
 h1 {
-    background-color: honeydew;
+    background-color: rgba(240, 255, 240, .5);
     border: 1px solid honeydew;
     border-radius: 3px;
     padding-left: 2%;
     color: rgb(85, 2, 85);
-    opacity: 0.5;
+  
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h2 {
@@ -69,14 +69,13 @@ h2 {
     border-radius: 3px;
 }
 .descblock {
-    background-color: honeydew;
+    background-color: rgba(240, 255, 240, .5);
     border: 1px solid honeydew;
     border-radius: 3px;
-    opacity: 0.5;
+   
     margin-bottom: 0.5%;
     margin-top: 0.5;
 }
 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 2px 2px white;
 }
