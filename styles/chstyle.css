@@ -26,11 +26,38 @@ h2 {
 }
 .charblock {
     display: flex;
+    flex-wrap: wrap;
+}
+.chcard {
+    background-color: rgba(240, 255, 240, .6);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+    box-shadow: 1px 1px rgba(0, 0, 0, .3), -1px -1px rgba(0, 0, 0, .3);
+}
+.chcard:hover {
+    box-shadow: 3px 3px rgba(0, 0, 0, .3), -3px -3px rgba(0, 0, 0, .3);
+}
+img {
+    padding-top: 4px;
+    width: 7vw;
+    min-width: 100px;
+    background: linear-gradient(#a67346, #dc914e);
+    border-bottom-right-radius: 30px;
 }
 a {
     text-decoration: none;
     color: black;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.desktxt {
+    margin-top: 16px;
+    margin-bottom: 16px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 

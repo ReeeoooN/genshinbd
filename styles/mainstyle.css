@@ -25,6 +25,7 @@ ul {
     border-style: solid;
     border-bottom-right-radius: 10px;
     margin-bottom: 10px;
+    min-width: 90px;
 }
 .hlist:active {
     opacity: 0.8;
