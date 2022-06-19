@@ -38,11 +38,18 @@ h2 {
 .chcard:hover {
     box-shadow: 3px 3px rgba(0, 0, 0, .3), -3px -3px rgba(0, 0, 0, .3);
 }
-img {
+.fstar {
     padding-top: 4px;
     width: 7vw;
     min-width: 100px;
     background: linear-gradient(#a67346, #dc914e);
+    border-bottom-right-radius: 30px;
+}
+.fostar {
+    padding-top: 4px;
+    width: 7vw;
+    min-width: 100px;
+    background: linear-gradient(#73659a, #9474c0);
     border-bottom-right-radius: 30px;
 }
 a {
@@ -61,3 +68,25 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.graf {
+    display: flex;
+}
+.selector {
+    float: right;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+select {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: honeydew;
+    background-color: rgba(240, 255, 240, .5);
+}
+button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: honeydew;
+    background-color: rgba(240, 255, 240, .5);
+}
