@@ -36,7 +36,7 @@ h2 {
     box-shadow: 1px 1px rgba(0, 0, 0, .3), -1px -1px rgba(0, 0, 0, .3);
 }
 .chcard:hover {
-    box-shadow: 3px 3px rgba(0, 0, 0, .3), -3px -3px rgba(0, 0, 0, .3);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .3), -3px -3px 5px rgba(0, 0, 0, .3);
 }
 .fstar {
     padding-top: 4px;
