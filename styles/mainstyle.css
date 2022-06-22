@@ -1,15 +1,23 @@
+@media (max-width:450px) {
+   ul {
+    display: flex;
+   }
+}
+
+
+
 body {
     margin-left: 0;
 }
 header {
-    width: 5%;
+    width: 100px;
     margin-left: 0;
     height: 100vh;
     position: sticky;
     top: 0px;
     
 }
-ul {
+.hblock {
     width: 100%;
     display: block;
     margin-left: 0;
@@ -38,7 +46,4 @@ ul {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(85, 2, 85);
     text-decoration: none;
-}
-.mainblock {
-    display: flex;
 }
